@@ -18,6 +18,17 @@ namespace ExamenFinalPolizas.Vista
         public frmPoliza()
         {
             InitializeComponent();
+            CuentaTipoDAO campeonato = new CuentaTipoDAO();
+            cboCuenta.DataSource = campeonato.obtenerTiposDeCuenta();
+            cboCuenta.DisplayMember = "nombre";
+            cboCuenta.ValueMember = "cuentaTipoId";
+            cboCuenta.SelectedItem = cboCuenta.Items[0];
+
+            OperacionTipoDAO operaciones = new OperacionTipoDAO();
+            cboCuenta.DataSource = operaciones.obtenerTiposDeOperaciones();
+            cboCuenta.DisplayMember = "nombre";
+            cboCuenta.ValueMember = "operationTipoId";
+            cboCuenta.SelectedItem = cboCuenta.Items[0];
         }
 
         private void frmPoliza_Load(object sender, EventArgs e)
