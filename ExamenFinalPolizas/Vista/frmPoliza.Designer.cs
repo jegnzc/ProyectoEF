@@ -49,7 +49,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 55);
+            this.textBox1.Location = new System.Drawing.Point(145, 66);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(255, 20);
             this.textBox1.TabIndex = 0;
@@ -59,7 +59,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(43, 58);
+            this.label1.Location = new System.Drawing.Point(75, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 15);
             this.label1.TabIndex = 1;
@@ -68,30 +68,32 @@
             // cboTipoDeOperacion
             // 
             this.cboTipoDeOperacion.FormattingEnabled = true;
-            this.cboTipoDeOperacion.Location = new System.Drawing.Point(300, 118);
+            this.cboTipoDeOperacion.Location = new System.Drawing.Point(328, 121);
             this.cboTipoDeOperacion.Name = "cboTipoDeOperacion";
             this.cboTipoDeOperacion.Size = new System.Drawing.Size(121, 21);
             this.cboTipoDeOperacion.TabIndex = 3;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(113, 29);
+            this.dateTimePicker1.Location = new System.Drawing.Point(145, 40);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(255, 20);
             this.dateTimePicker1.TabIndex = 5;
             // 
             // dgvPolizaDetalles
             // 
+            this.dgvPolizaDetalles.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPolizaDetalles.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvPolizaDetalles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPolizaDetalles.Location = new System.Drawing.Point(63, 155);
             this.dgvPolizaDetalles.Name = "dgvPolizaDetalles";
-            this.dgvPolizaDetalles.Size = new System.Drawing.Size(478, 150);
+            this.dgvPolizaDetalles.Size = new System.Drawing.Size(636, 192);
             this.dgvPolizaDetalles.TabIndex = 6;
             // 
             // cboCuenta
             // 
             this.cboCuenta.FormattingEnabled = true;
-            this.cboCuenta.Location = new System.Drawing.Point(156, 118);
+            this.cboCuenta.Location = new System.Drawing.Point(184, 121);
             this.cboCuenta.Name = "cboCuenta";
             this.cboCuenta.Size = new System.Drawing.Size(121, 21);
             this.cboCuenta.TabIndex = 2;
@@ -101,7 +103,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(153, 100);
+            this.label2.Location = new System.Drawing.Point(181, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 7;
@@ -112,7 +114,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(307, 100);
+            this.label3.Location = new System.Drawing.Point(335, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(125, 15);
             this.label3.TabIndex = 8;
@@ -123,7 +125,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(443, 100);
+            this.label4.Location = new System.Drawing.Point(471, 103);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 15);
             this.label4.TabIndex = 9;
@@ -131,7 +133,7 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(446, 119);
+            this.txtValor.Location = new System.Drawing.Point(474, 122);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(100, 20);
             this.txtValor.TabIndex = 10;
@@ -139,7 +141,7 @@
             // btnAgregarDetalleDePoliza
             // 
             this.btnAgregarDetalleDePoliza.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarDetalleDePoliza.Location = new System.Drawing.Point(559, 115);
+            this.btnAgregarDetalleDePoliza.Location = new System.Drawing.Point(624, 118);
             this.btnAgregarDetalleDePoliza.Name = "btnAgregarDetalleDePoliza";
             this.btnAgregarDetalleDePoliza.Size = new System.Drawing.Size(75, 23);
             this.btnAgregarDetalleDePoliza.TabIndex = 11;
@@ -150,7 +152,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(570, 180);
+            this.button2.Location = new System.Drawing.Point(714, 198);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 12;
@@ -162,7 +164,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(470, 19);
+            this.label5.Location = new System.Drawing.Point(524, 40);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 24);
             this.label5.TabIndex = 13;
@@ -170,7 +172,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(46, 119);
+            this.textBox2.Location = new System.Drawing.Point(63, 122);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 14;
@@ -180,7 +182,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(43, 100);
+            this.label6.Location = new System.Drawing.Point(60, 103);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 15);
             this.label6.TabIndex = 15;
@@ -191,7 +193,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(43, 28);
+            this.label7.Location = new System.Drawing.Point(75, 39);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 15);
             this.label7.TabIndex = 16;
@@ -202,7 +204,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ExamenFinalPolizas.Properties.Resources.fondo;
-            this.ClientSize = new System.Drawing.Size(738, 317);
+            this.ClientSize = new System.Drawing.Size(815, 379);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox2);

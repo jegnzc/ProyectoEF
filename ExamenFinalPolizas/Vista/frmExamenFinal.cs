@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using static datosUsuario;
 namespace ExamenFinalPolizas
 {
     public partial class frmExamenFinal : Form
@@ -46,6 +46,8 @@ namespace ExamenFinalPolizas
 
         private void tipoDeCuentasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            BitacoraUsuario.Bitacora bit = new BitacoraUsuario.Bitacora();
+            bit.guardarEnBitacora(IdUsuario, "2", "1000", "Entrar a Tipo de Cuentas");
             frmTipoCuenta form3 = new frmTipoCuenta();
             form3.MdiParent = this.MdiParent;
             form3.Show();
@@ -53,6 +55,8 @@ namespace ExamenFinalPolizas
 
         private void pólizasToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            BitacoraUsuario.Bitacora bit = new BitacoraUsuario.Bitacora();
+            bit.guardarEnBitacora(IdUsuario, "2", "1000", "Entrar a Pólizas");
             frmPoliza form3 = new frmPoliza();
             form3.MdiParent = this.MdiParent;
             form3.Show();

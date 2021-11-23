@@ -17,3 +17,5 @@ C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\ob
 C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\obj\Debug\ExamenFinalPolizas.pdb
 C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\obj\Debug\ExamenFinalPolizas.frmExamenFinal.resources
 C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\obj\Debug\ExamenFinalPolizas.frmTipoCuenta.resources
+C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\obj\Debug\ExamenFinalPolizas.Vista.frmCuenta.resources
+C:\Users\CORE i7 6TA WIN10\source\repos\ExamenFinalPolizas\ExamenFinalPolizas\obj\Debug\ExamenFinalPolizas.Vista.frmPoliza.resources
